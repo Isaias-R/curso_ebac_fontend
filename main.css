@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header {
+    padding: 16px 0;
+    border-bottom: 1px solid #000;
+    background-color: rgb(138, 236, 239);
+}
+
+.menu li {
+    float: left;
+    cursor: pointer;
+    list-style: none;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.container h1 {
+    width: 100%;
+    font-family: 'Moirai One', cursive;
+    font-weight: bold;
+}
+
+.imagem-sobre {
+    padding: 6px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.sobre {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    padding: 18px 0;
+    margin-left: 20px;
+}
+
+.sobre h2 {
+    width: 100%;
+}
+
+.sobre p {
+    width: 100%;
+}
+
+.produto {
+    display: grid;
+    grid-template-columns: repeat(3, 32.6%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+
+.produtos h2 {
+    padding: 16px 0;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mais-vendidos p {
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.mais-vendidos h3 {
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    border-radius: 12px;
+    background-color: rgb(17, 100, 114);
+    text-transform: uppercase;
+    color: #fff;
+    padding: 6px;
+    cursor: pointer;
+    border-bottom: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .produto {
+        display: block;
+        padding: 0 80px;
+    }
+
+    h3 {
+        font-size: 12pt;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .imagem-sobre {
+        padding: 6px;
+        width: 250px;
+        border-radius: 50%;
+    }
+    
+    .sobre {
+        display: block;
+        text-align:center;
+        justify-content: center;
+        padding: 18px 0;
+        margin-left: 20px;
+    }
+    
+    .sobre h2 {
+        width: 100%;
+    }
+    
+    .sobre p {
+        width: 100%;
+    }
+
+    header div.container {
+        flex-direction: column;
+    }
+
+    button {
+        border-radius: 12px;
+        background-color: rgb(17, 100, 114);
+        color: #fff;
+        padding: 2px;
+        width: 100%;
+        cursor: pointer;
+        border-bottom: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px ) {
+
+    .container{
+        max-width: 90%;
+    }
+
+    .produto {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 1%;
+        row-gap: 5%;
+        padding: 0 120px;
+    }
+
+    button {
+        margin: 24px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width:1362px ) {
+}
