@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: #5a5959;
+    font-weight: bold;
+}
+
+.row {
+    margin: 16px;
+}
+
