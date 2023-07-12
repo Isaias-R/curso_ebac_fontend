@@ -1,0 +1,384 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+    margin-left:100px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50pt;
+    color: #947361;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+header {
+    z-index: 10;
+}
+
+.titulo {
+    background-color: #f5ebe0;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar-nav .nav-link.active {
+    color: #846c5d;
+    background-color: #d5bdaf;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    background-color: #d5bdaf;
+    padding-top: 170px;
+    
+}
+
+.logo {
+    height: 90px;
+    width: 130px;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: initial;
+    margin-left:50px;
+    background-color: #d5bdaf;
+    color: #947361;
+}
+
+#boas-vindas {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30pt;
+    color: #ffffff;
+    background-color: #947361a9;
+    padding: 16px;
+    border-radius: 25px;
+}
+
+.img-inicial {
+    height: 600px;
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 600px;
+}
+
+#botao-inicio {
+    background-color: #846c5d;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #846c5d;
+    color: #f5ebe0;
+}
+
+.nav-tabs .nav-link {
+    color: #000;
+}
+
+.card-body h5 {
+    padding: 16px;
+}
+
+.card {
+    background-color: #f5ebe0;
+}
+
+.btn-dark {
+    width: 100%;
+    background-color: #947361;
+}
+
+.btn.btn-success {
+    width: 100%;
+}
+
+.container.contato {
+    width: 30%;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        margin-left:-20px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 30pt;
+        color: #947361;
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+    
+    header {
+        z-index: 10;
+    }
+    
+    .titulo {
+        background-color: #f5ebe0;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    
+    .navbar-nav .nav-link.active {
+        color: #846c5d;
+        background-color: #d5bdaf;
+    }
+    
+    .nav-link {
+        text-align: center;
+    }
+    
+    .logo {
+        height: 50px;
+        width: 80px;
+    }
+
+    button.navbar-toggler {
+        border: none;
+    }
+
+    span.navbar-toggler-icon {
+        width: 30px;
+    }
+    
+    h2 {
+        font-weight: bold;
+        text-align: center;
+        margin-right: 49px;
+        background-color: #947361;
+        color: #d5bdaf;
+        border-radius: 20px;
+        font-size: 18pt;
+        padding: 8px;
+    }
+    
+    #boas-vindas {
+        font-family: 'Great Vibes', cursive;
+        font-size: 20pt;
+        color: #ffffff;
+        background-color: #947361a9;
+        padding: 12px;
+        border-radius: 20px;
+        margin-bottom: 70px;
+    }
+
+    .img-inicial {
+        height: 270px;
+        width: 100%;
+    }
+    
+    .top {
+        width: 100%;
+        height: 270px;
+    }
+    
+    #botao-inicio {
+        background-color: #846c5d;
+    }
+    
+    .nav-tabs .nav-link.active {
+        background-color: #846c5d;
+        color: #f5ebe0;
+    }
+    
+    .nav-tabs .nav-link {
+        color: #000;
+    }
+
+    section {
+        height: 270vh;
+        margin-bottom: -20px;
+        background-color: #d5bdaf;
+    }
+
+    section#inicio{
+        margin-top: -100px;
+    }
+
+    .col-sm-12.col-md-6 {
+        padding-bottom: 2vh;
+    }
+    
+    .card-body h5 {
+        padding: 16px;
+    }
+    
+    .card {
+        background-color: #f5ebe0;
+    }
+    
+    .btn-dark {
+        width: 100%;
+        background-color: #947361;
+    }
+    
+    .btn.btn-success {
+        width: 100%;
+    }
+
+    .container.contato {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    h1 {
+        margin-left:-40px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 30pt;
+        color: #947361;
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+    
+    header {
+        z-index: 10;
+    }
+    
+    .titulo {
+        background-color: #f5ebe0;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    
+    .navbar-nav .nav-link.active {
+        color: #846c5d;
+        background-color: #d5bdaf;
+    }
+    
+    .nav-link {
+        text-align: center;
+    }
+    
+    .logo {
+        height: 50px;
+        width: 80px;
+    }
+
+    button.navbar-toggler {
+        border: none;
+    }
+
+    span.navbar-toggler-icon {
+        width: 40px;
+    }
+    
+    h2 {
+        font-weight: bold;
+        text-align: center;
+        margin-right: 49px;
+        background-color: #947361;
+        color: #d5bdaf;
+        border-radius: 20px;
+        font-size: 18pt;
+        padding: 8px;
+    }
+    
+    #boas-vindas {
+        font-family: 'Great Vibes', cursive;
+        font-size: 30pt;
+        color: #ffffff;
+        background-color: #947361a9;
+        padding: 12px;
+        border-radius: 20px;
+        margin-bottom: 120px;
+    }
+
+    .img-inicial {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .top {
+        width: 100%;
+        height: 400px;
+    }
+    
+    #botao-inicio {
+        background-color: #846c5d;
+    }
+    
+    .nav-tabs .nav-link.active {
+        background-color: #846c5d;
+        color: #f5ebe0;
+    }
+    
+    .nav-tabs .nav-link {
+        color: #000;
+    }
+
+    section {
+        height: 122vh;
+        margin-bottom: -20px;
+        background-color: #d5bdaf;
+    }
+
+    section#inicio{
+        margin-top: -100px;
+    }
+
+    .col-sm-12.col-md-6 {
+        padding-bottom: 4vh;
+    }
+    
+    .card-body h5 {
+        padding: 16px;
+    }
+    
+    .card {
+        background-color: #f5ebe0;
+    }
+    
+    .btn-dark {
+        width: 100%;
+        background-color: #947361;
+    }
+    
+    .btn.btn-success {
+        width: 100%;
+    }
+
+    .container.contato {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1362px) {
+
+    h1 {
+        margin-left:100px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 40pt;
+        color: #947361;
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+
+    .container.contato {
+        width: 50%;
+    }
+
+    .img-inicial {
+        height: 500px;
+        width: 100%;
+    }
+    
+    .top {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+
+
