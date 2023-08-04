@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ffff4213;
+}
+
+.form {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+
+    &__products {
+        border: 2px solid #dfd02a;
+        padding: 8px;
+        background-color: #ffff426d;
+        color: #000000;
+
+        .product__image { 
+            width: 100%;
+
+            &__name {
+                font-size: 1.2em;
+                margin: 8px 0;
+            }
+            
+            &__description {
+                color: gray;
+            }
+        }
+    }
+}
+
+
+.in--highlights {
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+}
